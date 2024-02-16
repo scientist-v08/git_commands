@@ -21,6 +21,12 @@ git commit -m "your message"
 Pushing the changes from the branch:
 git push origin "your branch name"
 
-Trying to learn git squash (0)
-Trying to learn git squash (1)
-Trying to learn git squash (2)
+Squashing commits into a single commit:
+	1. git rebase -i HEAD~<Enter number of commits to be squashed>
+	2. Press "i" to insert
+	3. Now replace 'pick' with 's' for all unwanted commit messages
+	4. Press Esc and then type ":wq"
+	5: The above will open a new console. Remove all the unwanted commit lines
+	6: Press Esc and then type ":wq" again
+	Your squash has now been completed. Final step:-
+	git push origin (branch-name) -f 
