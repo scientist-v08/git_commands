@@ -20,3 +20,7 @@ git commit -m "your message"
 
 Pushing the changes from the branch:
 git push origin "your branch name"
+
+Trying to learn git squash (0)
+Trying to learn git squash (1)
+Trying to learn git squash (2)
