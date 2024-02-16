@@ -1,0 +1,22 @@
+Stashing and retreiving the stash:
+git stash
+git stash pop
+
+Pulling updated file from git:
+git pull origin develop
+
+Creating a new branch and shifting to it:
+git checkout -b "your branch name"
+
+Shifting to a new branch:
+git checkout "branch name"
+
+Renaming a branch:
+git branch -m "old branch name" "new branch name"
+
+Commiting changes in a branch:
+git add .
+git commit -m "your message"
+
+Pushing the changes from the branch:
+git push origin "your branch name"
