@@ -15,8 +15,9 @@ Renaming a branch:
 git branch -m "old branch name" "new branch name"
 
 Commiting changes in a branch:
-git add .
-git commit -m "your message"
+	1.git add .
+	   git commit -m "your message"
+	2.git commit -a -m "Commit message"
 
 Pushing the changes from the branch:
 git push origin "your branch name"
@@ -30,3 +31,6 @@ Squashing commits into a single commit:
 	6: Press Esc and then type ":wq" again
 	Your squash has now been completed. Final step:-
 	git push origin (branch-name) -f 
+	
+To view all the remote branches:-
+git remote show origin 
